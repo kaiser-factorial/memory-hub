@@ -127,7 +127,7 @@ Checks embedding API connectivity (Gemini + fallback), Firestore reachability, e
 
 ---
 
-## 🤝 Cross-Agent Knowledge Sharing
+##  Cross-Agent Knowledge Sharing
 
 Agents (Hermes, Claude, Codex, Grok, Laguna, Gemini) are encouraged to contribute useful facts to the shared pool. This way knowledge compounds across work sessions and agent boundaries.
 
