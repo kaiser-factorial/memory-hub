@@ -1,10 +1,10 @@
-# 🧠 Unified Memory Hub
+#  Unified Memory Hub
 
 A unified local/cloud memory architecture for developers and AI agents. It serves as a persistent cross-harness semantic layer where your coding models can refer to past handoff documents, read session summaries, query project preferences, and synchronize with Firebase Firestore (dedicated `memory-hub` project) and Supermemory.ai.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 *   **Offline-First Local DB**: Stores vector embeddings and facts locally in `.memory/db.json` with zero-latency in-memory cosine similarity matching.
 *   **2-Layer Deduplication**: Normalized content hash match + cosine similarity (default threshold 0.93) catches both exact and paraphrased duplicates during ingest.
@@ -18,7 +18,7 @@ A unified local/cloud memory architecture for developers and AI agents. It serve
 
 ---
 
-## 🛠️ Installation & Setup
+## ️ Installation & Setup
 
 1.  **Install Dependencies**:
     ```bash
@@ -150,7 +150,7 @@ mem upsert "BRICK daemon requires localhost:7373 in CSP" --key brick-csp --tags 
 
 ---
 
-## 🖥️ Web Dashboard
+## 🖥 ️ Web Dashboard
 
 To start just the visual web dashboard (the watcher runs separately via launchd):
 ```bash
@@ -201,7 +201,7 @@ Then configure your active model runner to read `.agent_context.md` on boot.
 
 ---
 
-## 🔧 Local API (Development Only)
+##  Local API (Development Only)
 
 The dashboard's localhost Vite API exposes the same operations the CLI uses:
 
